@@ -113,6 +113,7 @@ padding: 10px;
 #intro h2{
   font-size:2rem;
   margin-bottom:20px;
+  font-family: 'Playfair Display', serif;;
 }
 
 /*Gallery section*/
@@ -134,4 +135,68 @@ padding: 10px;
   width:360px;
 height:240px;
 margin:10px;
+}
+
+/*Services section*/
+#services{
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.row{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.box{
+  display:flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  border:1px solid black;
+  margin:10px; 
+  align-items: center;
+  text-align: justify;
+  padding: 10px; 
+  border-radius:15px;
+  background: linear-gradient(to top, rgb(209, 57, 226), white 50%);
+  
+  
+}
+.box :hover{
+  background-position: left bottom;
+  color:black;
+  border:none;
+  box-shadow: 0 0 20px rgba(209, 57, 226);
+}
+
+/*Contact section*/
+#contact{
+  display:flex;
+flex-direction: column;
+box-sizing: border-box;
+background-color:rgba(0,0,0,0.9);
+color:white;
+padding:20px;
+font-family: 'Playfair Display', serif;
+}
+.wrap{
+  display:flex;
+flex-direction: column;
+box-sizing: border-box;
+align-items: center;
+margin:20px 0px;
+}
+
+#send{
+  padding:10px;
+width:10%;
+margin:40px;
+border:none;
+  outline:none;
+}
+#send  :hover{
+  cursor: pointer;
+  box-shadow: 0 0 10px, white;
 }
