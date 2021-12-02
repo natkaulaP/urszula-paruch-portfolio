@@ -200,3 +200,6 @@ border:none;
   cursor: pointer;
   box-shadow: 0 0 10px, white;
 }
+@media(max-width: 900px){
+
+}
