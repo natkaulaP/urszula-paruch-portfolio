@@ -40,7 +40,7 @@ margin:20px 0px;
 #home{
   display:flex;
   flex-direction:column;
-  background: url('/src/images/create.jpg') no-repeat center center/cover;
+  background: #191919;
   height: 840px;
   justify-content:center;
   align-items:center;
@@ -200,6 +200,8 @@ border:none;
   cursor: pointer;
   box-shadow: 0 0 10px, white;
 }
-@media(max-width: 900px){
-
+@media(max-width: 575.98px){
+ img{
+   display:none;
+ }
 }
