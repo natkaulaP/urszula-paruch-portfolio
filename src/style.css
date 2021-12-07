@@ -40,12 +40,12 @@ margin:20px 0px;
 #home{
   display:flex;
   flex-direction:column;
-  background: #191919;
+  background:url('/src/images/rose.jpg') no-repeat center center/cover ;
   height: 840px;
   justify-content:center;
   align-items:center;
   color:white;
-}
+}  
 #home  ::before{
   content: "";
   position:absolute;
