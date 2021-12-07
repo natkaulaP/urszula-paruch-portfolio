@@ -163,7 +163,7 @@ margin:10px;
   text-align: justify;
   padding: 10px; 
   border-radius:15px;
-  background: linear-gradient(to top, rgb(209, 57, 226), white 50%);
+  background: linear-gradient(to top, rgb(236, 172, 243), white 50%);
   
   
 }
@@ -183,6 +183,7 @@ background-color:rgba(0,0,0,0.9);
 color:white;
 padding:20px;
 font-family: 'Playfair Display', serif;
+align-items: center;
 }
 .wrap{
   display:flex;
