@@ -5,6 +5,9 @@
 .headings{
   font-size:1.7rem
 }
+.sub-headings  h3{
+  text-align: center;
+}
 
 /*About*/
 #pic img{
