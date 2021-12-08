@@ -184,7 +184,7 @@ border: 1px solid white;
   display:flex;
 flex-direction: column;
 box-sizing: border-box;
-background-color:rgba(0,0,0,0.9);
+background-color:#000000;
 color:white;
 padding:20px;
 font-family: 'Playfair Display', serif;
