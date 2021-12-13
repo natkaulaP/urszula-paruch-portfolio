@@ -18,7 +18,7 @@
   font-size:1.5rem;
 }
 
-/*Portfolio*/
+/*Gallery*/
 .gallery img{
   width: 250px;
   height: 150px;
@@ -29,9 +29,7 @@
 .wrap{
   width: 80%;
 }
-#msg{
-  width:70%;
-}
+
 #send{
   width:20%;
 }

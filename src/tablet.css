@@ -12,6 +12,7 @@
 /*About*/
 #pic{
   flex-direction:column;
+  justify-content: center;
   align-items:center;
 }
 #pic img{
@@ -30,9 +31,6 @@
 /*Contact*/
 .wrap{
   width:60%;
-}
-#msg{
-  width:55%;
 }
 #send{
   width:20%;
