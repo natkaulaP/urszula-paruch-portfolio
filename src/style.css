@@ -7,7 +7,7 @@ html{
   scroll-behavior: smooth;
 }
 
-/*navbar*/
+/*Navbar*/
 .navbar{
 display: flex;
 justify-content: center;
@@ -35,7 +35,7 @@ margin:20px 0px;
 .navbar a:hover{
   background-color:white;
   color:black; 
-  box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px white,0 0 15px white ;
 }
 /*Home section*/
 #home{
@@ -92,6 +92,7 @@ margin:20px 0px;
   font-weight: bold;
 }
 
+
 /*About section*/
 #about{
   display: flex;
@@ -120,6 +121,9 @@ padding: 10px;
   font-size:2rem;
   margin-bottom:20px;
   font-family: 'Playfair Display', serif;
+}
+.social-links a{
+  margin:0 20px;
 }
 
 /*Gallery section*/
