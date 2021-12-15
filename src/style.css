@@ -88,7 +88,7 @@ margin:20px 0px;
   cursor: pointer;
   background-color:white;
   color:black;
-  box-shadow: 0 0 5px white,0 0 10px white ,0 0 15px white; 
+  box-shadow: 0 0 5px white,0 0 10px white ,0 0 15px white, 0 0 35px white,0 0 120px white; 
   font-weight: bold;
 }
 
@@ -146,6 +146,15 @@ border: 1px solid white;
  
 }
 /*Projects*/
+#gallery-portfolio{
+   display:flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  align-items: center;
+  padding:20px;
+  
+}
 .link {
   display:flex;
 flex-direction: column;
@@ -160,8 +169,8 @@ margin:20px 0px
   display:flex;
 flex-direction: column;
 box-sizing: border-box;
-background-color:white;
-color:#000000;
+background-color:black;
+color:white;
 padding:20px;
 font-family: 'Playfair Display', serif;
 align-items: center;
@@ -180,13 +189,13 @@ width:80%;
 margin:20px;
 border:none;
   outline:none;
-  color:#000000
+  color:white
 }
 #send:hover{
   cursor: pointer;
-  background:#000000;
-  color:white;
-  box-shadow: 0 0 5px #000000,0 0 15px #000000 ,0 0 35px #000000,0 0 120px #000000; 
+  background:white;
+  color:black;
+  box-shadow: 0 0 5px white,0 0 15px white ,0 0 35px white,0 0 120px white; 
   font-weight: bold;
   border:1px solid white
 }
