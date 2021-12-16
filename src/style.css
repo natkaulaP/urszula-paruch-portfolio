@@ -37,6 +37,7 @@ margin:20px 0px;
   color:black; 
   box-shadow: 0 0 10px white,0 0 15px white ;
 }
+
 /*Home section*/
 #home{
   display:flex;
@@ -124,6 +125,7 @@ padding: 10px;
 }
 .social-links a{
   margin:0 20px;
+  color: #f70707;
 }
 
 /*Gallery section*/
@@ -164,7 +166,25 @@ border: 1px solid white;
 flex-direction: column;
 box-sizing: border-box;
 align-items: center;
-margin:20px 0px
+margin:20px 0px;
+color: red;
+text-decoration: none;
+}
+.button{
+   padding:10px;
+width:80%;
+margin:20px;
+border:none;
+  outline:none;
+  color:black;
+}
+.button:hover{
+  cursor: pointer;
+  background:#000000;
+  color:white;
+  box-shadow: 0 0 5px #000000,0 0 15px #000000 ,0 0 35px #000000,0 0 120px #000000; 
+  font-weight: bold;
+  border:1px solid black;
 }
 
 
