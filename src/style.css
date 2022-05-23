@@ -42,7 +42,7 @@ margin:20px 0px;
 #home{
   display:flex;
   flex-direction:column;
-  background:url('/src/images/rose.jpg') no-repeat center center/cover ;
+  background:url('/urszula-paruch-portfolio/src/images/rose.jpg') no-repeat center center/cover ;
   height: 840px;
   justify-content:center;
   color:white;
